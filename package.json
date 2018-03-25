@@ -1,0 +1,42 @@
+{
+  "name": "nemchina-api-node",
+  "version": "0.1.0",
+  "description": "This is for the XEM Blockchain using nemchina.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "test-watch": "mocha --watch --recursive --watch-extensions js",
+    "test-path": "mocha",
+    "test-path-watch": "mocha --watch --watch-extensions js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanRobb/nemchina-api-node.git"
+  },
+  "keywords": [
+    "XEM",
+    "NEM",
+    "cryptocurrency",
+    "block",
+    "explorer",
+    "blockchain"
+  ],
+  "author": "SeanPRobb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeanRobb/nemchina-api-node/issues"
+  },
+  "homepage": "https://github.com/SeanRobb/nemchina-api-node#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "faker": "^4.1.0",
+    "mocha": "^5.0.5",
+    "moxios": "^0.4.0",
+    "sinon": "^4.4.8"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
